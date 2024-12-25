@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 94%);
+}
+.container{
+    width: 400px;
+    height: 350px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    border-bottom-right-radius: 120px;
+    padding: 40px;
+    position: relative;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+}
+.container2{
+    margin-bottom: 30px;
+}
+.text{
+    display: inline-block;
+    margin-right: 80px;
+    
+    margin-bottom: 3px;
+    color: hsl(0, 0%, 86%);
+}
+#inday{
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid hsl(0, 0%, 86%);
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    margin-right: 20px;
+    color: #8b8b8b;
+}
+#inmonth{
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid hsl(0, 0%, 86%);
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    margin-right: 35px;
+    color: #8b8b8b;
+}
+#inyear{
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid hsl(0, 0%, 86%);
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    color: #8b8b8b;
+}
+
+#submit{
+    position: absolute;
+    right: 15px;
+    top: 104px;
+    border: 5px solid #8248fc;
+    background-color: #8248fc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#submit:hover{
+    
+    border: 5px solid #151515;
+    background-color: #151515;
+    
+}
+
+hr{
+    background-color: #ececec;
+    height: 2px;
+    border: none;
+}
+
+#outyear{
+    font-size: 80px;
+    color: #864cff;
+    font-style: italic;
+}
+#years{
+    font-size: 60px;
+    color: #151515;
+    font-style: italic;
+
+}
+#outmonth{
+    font-size: 80px;
+    color: #864cff;
+    font-style: italic;
+}
+#months{
+    font-size: 60px;
+    color: #151515;
+    font-style: italic;
+}
+#outday{
+    font-size: 80px;
+    color: #864cff;
+    font-style: italic;
+}
+#days{
+    font-size: 60px;
+    color: #151515;
+    font-style: italic;
+}
+.res{
+    margin-bottom: -5px;
+}

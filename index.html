@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="container2">
+
+        <span class="text">Day  </span>
+        <span class="text"> Month </span>
+        <span class="text">Year </span>
+
+        <input id="inday" type="number" placeholder="DD" minlength="1" maxlength="2" required>
+      
+        <input id="inmonth" type="number" placeholder="MM" minlength="1" maxlength="2" required>
+      
+        <input id="inyear" type="number" placeholder="YYYY" minlength="4" maxlength="4" required>
+      
+    </div>
+    
+    <button id='submit'><img style="width: 45px;height: 30px;" src="icon-arrow.svg" alt=""></button>
+    <hr>
+    <div class="res">
+      <span id="outyear">--</span><span id="years">Years</span>
+    </div>
+    <div class="res">
+      <span id="outmonth">--</span><span id="months">Months</span>
+    </div>
+    <div class="res">
+      <span id="outday">--</span><span id="days">Days</span>
+    </div>
+  </div>
+  
+  
+
+
+
+  
+
+
+
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="index.js"></script>
+</body>
+</html>
